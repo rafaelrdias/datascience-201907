@@ -1,0 +1,21 @@
+﻿Build started 9/2/2013 4:11:58 PM.
+     1>Project "\\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Demo OpenCV.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /IC:\opencv\build\include\opencv /IC:\opencv\build\include\opencv2 /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_THREAD_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\Debug\Demo OpenCV.exe" /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_calib3d246d.lib opencv_contrib246d.lib opencv_core246d.lib opencv_features2d246d.lib opencv_flann246d.lib opencv_gpu246d.lib opencv_haartraining_engined.lib opencv_highgui246d.lib opencv_imgproc246d.lib opencv_legacy246d.lib opencv_ml246d.lib opencv_nonfree246d.lib opencv_objdetect246d.lib opencv_photo246d.lib opencv_stitching246d.lib opencv_ts246d.lib opencv_video246d.lib opencv_videostab246d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"Debug\Demo OpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\Debug\Demo OpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"\\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\Debug\Demo OpenCV.lib" /MACHINE:X86 Debug\main.obj
+         demo.vcxproj -> \\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\Debug\Demo OpenCV.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\Debug\Demo OpenCV.exe;#1" /manifest "Debug\Demo OpenCV.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Demo OpenCV.unsuccessfulbuild".
+         Touching "Debug\Demo OpenCV.lastbuildstate".
+     1>Done Building Project "\\psf\Home\Downloads\ProjSimpsonsVS2010-2013\ProjSimpsonsVS2010-2013\demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.67
